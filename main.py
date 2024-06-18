@@ -1,3 +1,12 @@
+#pip3 install pygbag --user --upgrade
+#przenieslismy zawartosc folderu code poziom wyzej (by te pliki byly luzem w folderze projektu)
+#by odpalic pygame:
+#w terminalu wychodzimy z folderu projektu (poziom wyzej):
+#cd ..
+#teraz odpalamy pygbag-a wskazujac folder projektu:
+#py -m pygbag .\Zelda_python (gdzie Zelda_python to nazwa folderu)
+#po pomyslnym wykonaniu odpala sie lokalny serwer www, gdzie projekt mozna podejrzec pod linkiem:
+# http://localhost:8000
 import pygame, sys
 import asyncio
 from settings import *
